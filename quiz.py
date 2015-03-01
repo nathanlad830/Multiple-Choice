@@ -1,18 +1,22 @@
-print("You find a £20 note on the ground do you...")
+score = 0
+print("You find a Â£20 note on the ground do you...")
 print("A - Spend it on sweets?")
 print("B - Give it to a homeless man?")
 print("C - Keep it and say nothing?")
 print("Do you choose A, B or C")
-choice = raw_input("\n")
+choice = input("\n")
 
-if choice == "a":
+if choice == "a" or choice == "A":
     print("You picked A!\n")
     print("You need to stop eating sweets! Greedy\n")
-elif choice == "b":
-        print("You picked B\n!")
-elif choice == "c":
-        print("You piced C!\n")
+elif choice == "b" or choice == "B":
+        print("You picked B!\n")
+        score =+ 1
+elif choice == "c" or choice == "C":
+        print("Oh no, thats awful!\n")
 else:
-    print("ERROR\n")
-    print("Use Lower Case Only!\n")
-    print("a, b and c are only allowed!\n")
+    print("Make up your mind!")
+print("Score = ",score)
+
+
+
