@@ -1,5 +1,5 @@
 score = 0
-print("You find a Â£20 note on the ground do you...")
+print("You find a £20 note on the ground do you...")
 print("A - Spend it on sweets?")
 print("B - Give it to a homeless man?")
 print("C - Keep it and say nothing?")
